@@ -18,8 +18,9 @@
   ```  
 groupId would be same as package-> com.arcspace.mavenworld
   ```
+  mvn archetype:generate //takes inputs 1. archtype 2. groupId 3. artifactId(war/jar) 4. version(1.0) 5. package (com.arcspace.mavenworld)
   mvn compile
-   mvn package // generates jar in target folder
+  mvn package // generates jar in target folder
    ```
 ***to run the class***
  ```
